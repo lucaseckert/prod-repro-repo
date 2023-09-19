@@ -31,4 +31,4 @@ data %>%
 ## as outliers, they are not obscenly out of the normal range
 
 ## saving the "cleaned" data as a new csv in the tidy data folder
-write_csv(data, "02_tidydata/pengiuns-clean.csv")
+write_csv(data, "02_tidydata/penguins-clean.csv")
