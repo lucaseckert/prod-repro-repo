@@ -34,17 +34,35 @@ Email: lucas.eckert\@mail.mcgill.ca
 
 # Abstract
 
+-   Character displacement is a classic result of interspecific competition
+
+-   Existing data from three species of penguins provide an opportunity to explore this phenomenon
+
+-   We explore the possibility of character displacement in bill morphology
+
+-   We define bill ratio to be the ratio between bill depth and length, and to be an informative trait to look for specialization
+
+-   We find that the three species of penguins differ significantly in bill ratio, providing another example of character displacement
+
+-   This reinforces the importance of interspecific competition in trait evolution
+
 # Introduction
 
-Character displacement in Darwin's finches [@grant2006].
+Character displacement is an evolutionary divergence in traits due to competition [@grant2006]. This phenomenon has been observed across taxa [@schluter1994]. Here, we explore another potential case of character displacement of a trophic trait in three species of penguins.
+
+Bill morphology is an important trophic trait [@grant1985]. While bill depth could be analyzed alone, we argue that if bill depth is correlated with bill length, the ratio of depth to length should be more informative.
+
+Penguins eat fish and other small marine prey, but bill morphology affects specific diet [@chávez-hoffmeister2020]. The Adelie, Chinstrap, and Gentoo penguins all inhabit the Palmer Archipelago [@gorman2014]. We explore potential character displacement between these species in bill morphology, specifically bill ratio.
 
 # Methods
 
-The bill ratio was defined as follows:
+Data on bill morphology for each of the species was collected from the palmerpenguins R package [@palmerpenguins]. The bill ratio was defined as follows:
 
 $$
 BillRatio = BillDepth \div BillLength
 $$
+
+We first explored the potential positive relationship between bill depth and length, which if present, punctuates the need to calculate bill ratio. We then test for differences in mean bill ratio among the species using pairwise T-tests with a Bonferonni correction.
 
 ```{r results='asis', echo=F}
 cite_packages(output = "paragraph", out.dir = "../05_references/")
@@ -69,5 +87,7 @@ fig2
 ```
 
 # Discussion
+
+The three species differed in mean bill ratio. This suggests that there is character displacement in this trait, caused by competition for prey. This reinforces the importance of interspecific competition in trait evolution.
 
 # References
