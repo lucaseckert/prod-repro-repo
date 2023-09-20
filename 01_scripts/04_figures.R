@@ -43,6 +43,8 @@ fig2<-ggplot(data, aes(x=species, y=bill_ratio, color=species))+
         panel.grid = element_blank())
 fig2
 
-## exporting figures as pngs
+## exporting figures as pngs and r objects
 ggsave("figure1.png", fig1, path = "./03_figures")
+saveRDS(fig1, "./03_figures/figure1.RDS")
 ggsave("figure2.png", fig2, path = "./03_figures")
+saveRDS(fig2, "./03_figures/figure2.RDS")
