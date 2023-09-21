@@ -29,3 +29,6 @@ The csl file for the citation style is downloaded from: https://github.com/citat
 The ciee-prod-repro.bib file is taken from the Zotero library for the project, contains the literature that is cited.
 The grateful-refs.bib file contains reference information for the R packages that were used, and is generated in the manuscript Rmd file.
 
+## 06_prereg
+This contains an R mardown file for generating the pregestration, as well as the PDF output
+
