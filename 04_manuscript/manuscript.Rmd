@@ -82,7 +82,7 @@ fig1
 
 **Figure 1:** Positive relationship between bill depth and length for each of the three species. Points represent individual penguins and the linear model fit is shown as a dotted line.
 
-The species also differ in mean bill ratio (Figure 2). Adelie penguins have the greatest bill ratio (mean = 0.474), followed by Chinstrap (mean = 0.378), then Gentoo (mean = 0.316). Significant differences were confirmed among all three species using pairwise T-tests.
+The species also differ in mean bill ratio (Figure 2). Adelie penguins have the greatest bill ratio (mean = 0.474), followed by Chinstrap (mean = 0.378), then Gentoo (mean = 0.316). Significant differences were confirmed among all three species using pairwise T-tests (all comparisons p \< 0.001).
 
 ```{r fig 2, fig.width = 5, fig.height=3, fig.align = "center", echo=F, warning=F}
 fig2<-readRDS("../03_figures/figure2.RDS")
