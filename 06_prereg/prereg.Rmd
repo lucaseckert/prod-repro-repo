@@ -11,9 +11,9 @@ affiliation:
   - id          : 1
     institution : McGill University, Montreal, QC, Canada
     
-csl: "./05_references/ecology-letters.csl"
+csl: "../05_references/ecology-letters.csl"
 
-bibliography: ["./05_references/grateful-refs.bib"]
+bibliography: ["../05_references/grateful-refs.bib"]
 
 output: prereg::prereg_pdf
 ---
