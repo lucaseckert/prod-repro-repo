@@ -22,7 +22,7 @@ library(grateful)
 get_pkgs_info(out.dir = "../05_references")
 ```
 
-# Character displacement of bill ratio in  penguins of the Palmer Archipelago
+# Character displacement of bill ratio in penguins of the Palmer Archipelago
 
 Lucas Eckert^1\*^
 
